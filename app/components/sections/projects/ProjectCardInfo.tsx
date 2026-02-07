@@ -4,7 +4,7 @@ export const ProjectCardInfo = [
     imageAlt: "switchlane",
     imageWidth: 450,
     imageHeight: 450,
-    demoUrl: "https://www.switchlane.xyz/",
+    demoUrl: "https://switchlane.vercel.app",
     githubUrl: "https://github.com/crackcodesprogramloads/switchlane",
     title: "Chainlink Hackathon",
     description: `I built the frontend UI with Tailwind, implemented an EIP-4337 smart wallet and connected it to my teammates crosschain smart contract.`,

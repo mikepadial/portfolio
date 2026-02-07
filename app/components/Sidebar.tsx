@@ -5,13 +5,7 @@ import Link from "next/link";
 const Sidebar = () => {
   return (
     <div className="z-10 absolute -left-1 sm:left-5 bottom-0 flex flex-col justify-between items-center">
-      <Link
-        className="hover:mb-0.5"
-        rel="noopener noreferrer"
-        target="_blank"
-        aria-label="github"
-        href="https://github.com/crackcodesprogramloads"
-      >
+      <Link className="hover:mb-0.5" rel="noopener noreferrer" target="_blank" aria-label="github" href="https://github.com/mikepadial">
         <svg
           stroke="currentColor"
           fill="currentColor"
