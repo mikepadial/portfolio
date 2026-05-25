@@ -48,28 +48,9 @@ const Navbar = () => {
         <li className="text-slate-300 hover:text-slate-100 hover:underline underline-offset-8 decoration-1 decoration-yellow-500">
           <Link href="#contact">CONTACT</Link>
         </li>
-        <li className="text-slate-300 hover:text-slate-100 hover:underline underline-offset-8 decoration-1 decoration-yellow-500">
-          <Link href="#about">ABOUT</Link>
-        </li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
-
-// import { MouseEventHandler, SyntheticEvent, useCallback, useEffect } from "react"
-
-// const [scrollFromTop, setScrollFromTop] = useState(false);
-
-// const handleScroll = useCallback((event: Event) => {
-//   const scrollPosition = (event.currentTarget as Window).scrollY;
-//   setScrollFromTop(scrollPosition > 1);
-// }, []);
-
-// useEffect(() => {
-//   window.onscroll = handleScroll;
-//   return () => {
-//     window.onscroll = null;
-//   };
-// }, [handleScroll]);
